@@ -7,6 +7,15 @@ const Nav = () => {
         <li>
           <Link to="/">Home</Link>
         </li>
+        <li>
+          <Link to="/product">prodcut</Link>
+        </li>
+        <li>
+          <Link to="/add_pro">Add </Link>
+        </li>
+        <li>
+          <Link to="/remove_pro">REmove</Link>
+        </li>
       </ul>
     </div>
   );
