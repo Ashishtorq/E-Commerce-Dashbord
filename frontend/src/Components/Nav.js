@@ -24,6 +24,9 @@ const Nav = () => {
           <Link className="dash" to="/profile">
             Profile
           </Link>
+          <Link className="dash" to="/signup">
+            Signup
+          </Link>
         </li>
       </ul>
     </div>

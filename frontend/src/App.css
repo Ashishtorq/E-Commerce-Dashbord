@@ -21,10 +21,22 @@
 position: absolute;
 top: 100%;
 left: 50%;
+
+
 height: 41px;
 width: 24%;
 border: 1px solid black;
 background: aquamarine;
+}
+
+.form{
+  display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 18px;
+    position: absolute;
+    top: 44%;
+    left: 50%;
 }
 
 

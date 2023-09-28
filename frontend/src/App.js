@@ -1,8 +1,8 @@
 import { Fragment } from "react";
 import "./App.css";
 import Nav from "./Components/Nav";
+import Signup from "./Components/Signup";
 import Footer from "./Components/Footer";
-import Signup from "./Components/signup.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
