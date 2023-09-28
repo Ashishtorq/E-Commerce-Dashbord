@@ -1,20 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./App.css";
 const Nav = () => {
   return (
     <div>
       <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/product">prodcut</Link>
-        </li>
-        <li>
-          <Link to="/add_pro">Add </Link>
-        </li>
-        <li>
-          <Link to="/remove_pro">REmove</Link>
+        <li className="nav-ul-li">
+          <Link className="dash" to="/">
+            Home
+          </Link>
+          <Link className="dash" to="/Product">
+            Product
+          </Link>
+          <Link className="dash" to="/add-product">
+            Add Product
+          </Link>
+          <Link className="dash" to="/update-product">
+            Update-Product
+          </Link>
+          <Link className="dash" to="/logout">
+            Log-out
+          </Link>
+          <Link className="dash" to="/profile">
+            Profile
+          </Link>
         </li>
       </ul>
     </div>
