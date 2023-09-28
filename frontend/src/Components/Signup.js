@@ -5,10 +5,10 @@ const Signup = () => {
     <div>
       <h1>Register Here</h1>
       <form action="" className='form'>
-      <input type="text" placeholder='Enter Name' />
-      <input type="email" placeholder='Enter mail id' />
-      <input type="password" placeholder='Enter password' />
-      <input type="submit" />
+      <input className='inputs' type="text" placeholder='Enter Name' />
+      <input className='inputs' type="email" placeholder='Enter mail id' />
+      <input className='inputs' type="password" placeholder='Enter password' />
+      <input className='inputs' type="submit" />
       </form>
     </div>
   )
